@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'arial';
+    max-width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+.navbar{
+    background-color: #1a1a1a;
+    padding: 0.75rem;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar h1{
+    margin-left: 40%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 35rem;
+}
+
+.logo, .nav-icon-container img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.logo{
+    margin: 0 0.1%;
+}
+
+.nav-icon-container{
+    display: flex;
+    align-items: center;
+}
+
+/* Main Content */
+
+section{
+    background-color: #FFF;
+    color: #2c2c2c;
+    width: 1000px;
+    height: 500px;
+    margin: 7rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #dadada;
+    padding: 1.5rem;
+}
+
+input{
+    border-radius: 5px;
+}
+.email{
+    width: 350px;
+}
+.msg{
+    width: 350px;
+    height: 230px;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main Content */
+
+/* Footer */
+
+.sub-background{
+    background-color: #1a1a1a;
+    height: 270px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    color: #8f8f8f;
+    padding: 1rem 1rem;
+    gap: 2rem;
+}
+
+.download-options>*{
+    margin: 1rem 0;
+}
+
+.download-options>p:first-child{
+    font-weight: bold;
+    color: #fff;
+}
+
+.download-options>div{
+    display: flex;
+}
+
+.download-options>div img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.logo-footer{
+    padding-left: 80px;
+}
+
+.logo-footer h1{
+    margin-bottom: 0.8rem;
+}
+
+.links-footer{
+    padding-left: 200px;
+}
+
+.links-footer h3{
+    color: #fff;
+}
+
+.links-footer ul{
+    list-style: none;
+}
+
+.links-footer ul li{
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.copyright{
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+/* Footer */

@@ -14,7 +14,7 @@ body{
 
 .navbar{
     background-color: #1a1a1a;
-    padding: 1rem;
+    padding: 0.75rem;
     top: 0;
     z-index: 99;
 }
@@ -51,7 +51,6 @@ nav ul{
 /* Main Content */
 .background{
     height: 500px;   
-    background-color: #ececec;
     display: flex;
     align-items: center;
     justify-content: center;

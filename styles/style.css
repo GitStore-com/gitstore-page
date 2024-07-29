@@ -32,7 +32,7 @@ body{
 nav ul{
     display: flex;
     list-style: none;
-    padding-left: 35rem;
+    padding-left: 40rem;
 }
 
 nav ul>li{
@@ -214,10 +214,12 @@ main{
 
 .cols-3 img{
     max-width: 100%;
+    border-radius: 3px;
 }
 
 .cols-4 img{
     max-width: 100%;
+    border-radius: 3px;
 }
 
 .cols-4{
