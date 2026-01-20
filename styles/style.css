@@ -45,6 +45,7 @@ header{
 }
 
 nav ul{
+    align-items: center;
     display: flex;
     gap: 30px;
     list-style: none;
@@ -100,7 +101,7 @@ nav ul>li{
 }
 
 .search-bar button {
-    background: #fff;
+    background: #555;
     border: none;
     padding: 10px 20px;
     color: #111;
@@ -109,15 +110,8 @@ nav ul>li{
 }
 
 .search-bar button:hover {
-  background: #555;
+  background: #666a;
   color: #fff;
-}
-
-.cart{
-    padding-right: 0.2rem;
-}
-.cart img{
-    padding-left: 1;
 }
 
 .nav-icon-container{
@@ -146,7 +140,7 @@ nav ul>li{
     padding-right: 1rem;
 }
 
-.cart:hover, .nav-access li:hover{
+.nav-access li:hover{
     transform: translateY(-5px);
     transition: all 0.5s;
     font-weight: bold;

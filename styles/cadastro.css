@@ -88,6 +88,12 @@ nav ul{
 
 .container span{
     font-size: 12px;
+    margin: 5px;
+}
+
+.underline-span:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .container a{
@@ -289,7 +295,7 @@ nav ul{
 }
 
 .logo-footer{
-    padding-left: 80px;
+    padding-left: 11%;
 }
 
 .logo-footer h1{
