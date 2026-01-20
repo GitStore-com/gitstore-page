@@ -9,3 +9,12 @@ registerBtn.addEventListener('click', () => {
 loginBtn.addEventListener('click', () => {
     container.classList.remove("active");
 });
+
+// Seleciona o botão de menu e a lista de navegação
+const menuButton = document.querySelector(".menu-button");
+const navList = document.querySelector(".nav-access");
+
+// Adiciona evento de clique
+menuButton.addEventListener("click", () => {
+  navList.classList.toggle("active"); // alterna entre mostrar/esconder
+});

@@ -3,56 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página InicialGitStore | </title>
+    <title>Início - GitStore</title>
+    <link rel="shortcut icon" href="assets/favicon-gitstore-removebg.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="header-inner-content">
-                <h1 class="logo">
-                        <a href="index.html"><img src="assets/gitstore-logo.png" alt="logo"></a>
-                </h1>
-            <nav>
+    
+    <!-- Header -->
+    <header class="header-content">
+        <i class="fas fa-bars" id="menu-button"></i>
 
+        <div class="logo-content">
+            <h1 class="logo">
+                <a href="index.html"><img src="assets/gitstore-logo.png" alt="logo"></a>
+            </h1>
+        </div>
+    
+        <!-- Busca -->
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar..." aria-label="Buscar produtos">
+          <button aria-label="Buscar"><i class="fas fa-search"></i></button>
+        </div>
+
+    <!-- Nav Bar -->
+        <div class="navbar">
+            <nav>
                 <ul class="nav-access">
-                    <li class="access">Produtos</li>
-                    <li class="access">Sobre</li>
-                    <li class="access"><a href="contato.html">Contato</a></li>
-                    <li class="account"><a href="cadastro.html"><img src="assets/gitstore-person.png" alt="account"></a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li class="nav-icon-container"><a href="cadastro.html"><img src="assets/gitstore-person.png" alt="account"></a></li>
+                    <li>
+                        <div class="nav-icon-container">
+                            <a href="cart.html"><img src="assets/gitstore-carrinho.png" alt="cart" class="cart"></a>
+                            <img src="assets/gitstore-menu.png" alt="menu" class="menu-button">
+                        </div>
+                    </li>
                 </ul>
             </nav>
-            <div class="nav-icon-container">
-                <a href="cart.html"><img src="assets/gitstore-carrinho.png" alt="cart" class="cart"></a>
-                <img src="assets/gitstore-menu.png" alt="menu" class="menu-button">
-            </div>
-        </div>
-    </div>
-
-    <header>
-        <div class="header-inner-content">
-            <div class="header-bottom-side">
-                <div class="header-bottom-side-left">
-                    <h2>Liberte-se e Emperimente Novos Estilos</h2>
-                    <p>
-
-                    </p>
-                    <button>Ver Agora &#8594;</button>
-                </div>
-                <div class="header-bottom-side-right">
-                    <img src="assets/images/gaming-msi-header.png" alt="">
-                </div>
-            </div>
         </div>
     </header>
 
     <!-- Main Content -->
      <main>
+
+        <!-- Banner -->
+        <div class="banner">
+            <div class="bottom-side">
+                <div class="bottom-side-left">
+                    <h2>Melhores equipamentos para uma melhor experiência </h2>
+                    <button class="banner-access-button">Ver Agora &#8594;</button>
+                </div>
+                <div class="bottom-side-right">
+                    <img src="assets/images/gaming-msi-header.png" alt="Banner promocional com PC Gamer MSI">
+                </div>
+            </div>
+        </div>
+
         <div class="sub-background">
             <div class="page-inner-content">
                 <div class="cols cols-3">
-                    <img src="assets/images/products/product-1.png" width="">
-                    <img src="assets/images/products/product-2.png" width="">
-                    <img src="assets/images/products/product-3.png" width="">
+                    <img src="assets/images/products/product-1.png" class="imagem-01">
+                    <img src="assets/images/products/product-2.png" class="imagem-02">
+                    <img src="assets/images/products/product-3.png" class="imagem-03">
                 </div>
             </div>
         </div>
@@ -147,9 +160,9 @@
      </main>
      <main class="sub2">
         <div>
-            <div class="header-inner-content">
-                <div class="header-bottom-side exclusive-container">
-                    <div class="header-bottom-side-left2">
+            <div class="banner">
+                <div class="bottom-side exclusive-container">
+                    <div class="bottom-side-left2">
                         <h2>Smart Band 4</h2>
                         <p>O Mi Smart Band 4 tem uma tela AMOLED 39.9% maior que o Mi Band
                            3, tela completamente digital com brilho ajustável, de tal modo
@@ -157,7 +170,7 @@
                         </p>
                         <button>Ver Agora &#8594;</button>
                     </div>
-                    <div class="header-bottom-side-right">
+                    <div class="bottom-side-right">
                         <img src="assets/images/exclusive.png" alt="">
                     </div>
                 </div>
@@ -234,6 +247,8 @@
                 <p>Copyright 2024 - GitStore - Todos Direitos Reservados</p>
             </div>
         </footer>
+
+        <script src="script.js"></script>
 </main>
 </body>
 </html>
